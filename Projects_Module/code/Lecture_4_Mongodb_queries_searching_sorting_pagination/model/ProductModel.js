@@ -117,8 +117,8 @@ productSchema.pre("save", function (next) {
     } else {
         next();
     }
-
 })
+
 // this model -> will have queries 
 // const ProductModel = mongoose.model("productModel", productSchema);
 const ProductModel = mongoose.model("newProductModel", productSchema);

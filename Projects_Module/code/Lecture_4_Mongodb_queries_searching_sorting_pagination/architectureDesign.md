@@ -13,5 +13,5 @@ Request -> **Api.js**
     DELETE /:userId -> deleteUserById
 * Models -> schema for each of the resource
     **UserModel**
-    **PlanModel**
+    **ProductModel**
     
