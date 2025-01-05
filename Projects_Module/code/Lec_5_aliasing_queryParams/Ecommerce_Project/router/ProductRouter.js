@@ -23,8 +23,8 @@ async function getAllProductHandler(req, res) {
         let query = req.query;
         let selectQuery = query.select;
         let sortQuery = query.sort
-        // console.log("selectParam", selectParam);
-        // console.log("sortParam", sortParam);
+        // console.log("selectParam", selectQuery);
+        // console.log("sortParam", sortQuery);
         // make a find query -> searching for the product
         let queryResPromise = ProductModel.find()
         // sort the entries 

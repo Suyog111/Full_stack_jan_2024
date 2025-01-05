@@ -6,7 +6,8 @@ const mongoose = require("mongoose")
 dotenv.config();
 const { PORT, DB_PASSWORD, DB_USER } = process.env;
 /**********************connection to our DB********************************/
-const dbURL = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.drcvhxp.mongodb.net/?retryWrites=true&w=majority`;
+const dbURL = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.ozpoe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
+
 // once 
 mongoose.connect(dbURL)
     .then(function (connection) {
